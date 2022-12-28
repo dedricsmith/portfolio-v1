@@ -1690,6 +1690,7 @@ hr {
 	.content-more {
 	display: inline-block;
 	font-weight: 600;
+	color: #ab5429;
 }
 
 .portfolio-section .portfolio-grid .portfolio-wrapper:hover:before {
