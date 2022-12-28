@@ -1,0 +1,23 @@
+/*!
+  * Item: Kitzu
+  * Description: Personal Portfolio Template
+  * Author/Developer: Exill
+  * Author/Developer URL: https://themeforest.net/user/exill
+  * Version: v2.0.0
+  * License: Themeforest Standard Licenses: https://themeforest.net/licenses
+  */
+
+/*----------- ADD YOUR CUSTOM CSS STYLES BELOW -----------*/
+.grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-auto-rows: minmax(100px, min-content);
+	gap: 2rem;
+}
+
+@media only screen and (max-width: 550px) {
+	.grid {
+		grid-template-columns: none;
+		grid-template-rows: repeat(8, 1fr);
+	}
+}
